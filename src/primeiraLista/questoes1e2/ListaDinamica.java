@@ -1,4 +1,4 @@
-package primeiraLista;
+package primeiraLista.questoes1e2;
 
 public class ListaDinamica implements Lista {
     private int[] array;

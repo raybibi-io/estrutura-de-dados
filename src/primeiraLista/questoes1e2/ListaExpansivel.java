@@ -1,9 +1,9 @@
-package primeiraLista;
+package primeiraLista.questoes1e2;
 
-public class ListaSimples implements Lista {
+public class ListaExpansivel implements Lista {
     private int[] array;
 
-    public ListaSimples(int cap) {
+    public ListaExpansivel(int cap) {
         array = new int[cap];
     }
 
@@ -21,5 +21,11 @@ public class ListaSimples implements Lista {
             throw new ArrayIndexOutOfBoundsException();
         }
         return array[pos];
+    }
+
+    public void expandir(int novaCap) {
+        int[] novoArray = new int[novaCap];
+        System.arraycopy(array, 0, novoArray, 0, array.length);
+        array = novoArray;
     }
 }

@@ -1,4 +1,4 @@
-import primeiraLista.ContadorImpl;
+package primeiraLista.questoes1e2;
 
 import java.util.Random;
 

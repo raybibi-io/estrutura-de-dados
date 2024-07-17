@@ -1,4 +1,4 @@
-package primeiraLista;
+package primeiraLista.questoes1e2;
 
 public interface Contador {
     void incrementa();

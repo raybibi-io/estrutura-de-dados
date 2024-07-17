@@ -1,4 +1,4 @@
-package primeiraLista;
+package primeiraLista.questoes1e2;
 
 public class ContadorImpl implements Contador {
     private int count;
@@ -21,7 +21,7 @@ public class ContadorImpl implements Contador {
 
     @Override
     public String toString() {
-        return "primeiraLista.Contador{" +
+        return "primeiraLista.questoes1e2.Contador{" +
                 "id='" + id + '\'' +
                 ", count=" + count +
                 '}';
